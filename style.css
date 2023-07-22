@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #CAC5BF;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.container{
+    max-width: 1000px;
+    background-color: #F5F4EF;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.image{
+    width: 20%;
+    float: left;
+}
+
+.name{
+    width: 80%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+img {
+    border: 1px solid #EBD118 ;
+    border-radius: 50%;
+    width: 120px;
+    height: 130px;
+    margin-left: 20px;
+}
+
+.contact-main{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+
+.contact{
+    float: left;
+    font-size: 14px;
+  
+}
+
+
+.contact ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 8px;
+    float: left;
+  
+}
+
+.contact ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  
+} 
+
+i{
+    color:#EBD118;
+    margin-right: 3px;
+}
+
+.clear-div{
+    clear: both;
+}
+
+
+hr{
+    border-top: 1px solid black;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+
+.left-div{
+    width: 20%;
+    float: left;
+}
+
+.right-div{
+    width: 80%;
+    float: left;
+}
+
+.session{
+    width: 25%;
+    float: left;
+
+}
+.description{
+    width: 75%;
+    float: left;
+}
+
+p{
+    margin-top: 10px; 
+    text-align: justify;
+}
+
+.description h5{
+    margin-top: 5px;
+}
+
+.common-hr{
+    border:1px #EBD118 solid ;
+    border-bottom: none;
+}
+
+.Language-skill{
+   width: 50%;
+    float: left;
+}
+
+.soft-skill{
+   width: 50%;
+    float:left;
+}
+
+
+progress {
+   accent-color: #EBD118;
+   
+  }
+
+  ::-webkit-progress-bar {
+    background-color: rgb(71, 71, 71);
+  }
+
+  
+
+footer p{
+    text-align: center;
+    text-decoration: underline;
+}
+.footer-contact{
+    text-align: center;
+}
+.footer-contact ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    margin: 50px;
+    
+}
+
+.footer-contact ul li a{
+    text-decoration: none;
+  font-size: large;
+  color: black;
+  
+
+  
+} 
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    width: 80%;
+}
+
+.grid-container div{
+    margin-bottom: 20px;
+}
+ 
+
+
+
+ 

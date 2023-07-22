@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F4EF;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.container{
+    background-color: #F5F4EF;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.image{
+    width: 100%;
+    text-align: center;
+}
+
+.name{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact-main{
+    display: grid;
+    grid-template-columns: 0% 100%;
+}
+
+.contact{
+    width:100%;
+    font-size: 12px;
+    text-align: center;
+}
+
+.contact ul li{
+    display: block;
+    float: center;
+}
+
+.left-div{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.right-div{
+    width: 100%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 100%;
+}
+
+.Language-skill{
+    width: 100%;
+    text-align: center;
+}
+ 
+ .soft-skill{
+    width: 100%;
+    text-align: center;
+ }
+ 
+.footer-contact ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    margin: 3px;
+    
+}
+
+.footer-contact ul li a{
+    text-decoration: none;
+  font-size: 14px;
+  color: black;
+  
+} 
+
+footer .right-div{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
